@@ -16,7 +16,7 @@
   </head>
   <body>
     <header class="header">
-      <a class="logo" href="#top">
+      <a class="logo" href="../index.html">
         <img src="../imagens/logo.png" alt="logo" id="logoImage" />
       </a>
       <nav>
@@ -54,6 +54,15 @@
           <button onclick="voltarPaginaInicial()">
             VOLTAR Á PÁGINA INICIAL
           </button>
+          <button onclick="verRanking()">
+            CONFIRA O RANKING
+          </button>
+          <script>
+            function verRanking() {
+              // Redireciona para o ranking.html
+              window.location.href = 'ranking.html';
+            }
+          </script>
         </div>
       </div>
     </div>

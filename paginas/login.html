@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <main class="center">
+      <div class="image-page">
+        <img src="/imagens/back.jpeg" alt="user" id="user" />
+       <a class="logo" href="../index.html">
+        <img
+        src="https://res.cloudinary.com/do9d7j6b3/image/upload/v1731469063/8acea982439b7129d89be0e6d94aebcc_fkapwl.png"
+        alt="logo"
+        id="logoImage"
+      />
+       </a>
+        <h1>
+          Bem-vindo <br />
+          de volta!
+        </h1>
+      </div>
+      <div class="login-content">
+        <div class="center-col title-page">
+          <h1>Login</h1>
+          <p>Bem-vindo de volta! Por favor faça login com a sua conta.</p>
+        </div>
+        <form class="center-col">
+          <div class="input-field center-col">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="input-field center-col">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <button class="btn-submit" type="submit">Login</button>
+          <span class="link">
+            Novo usuário?
+            <a onclick="window.location.href='register.html'">Criar conta</a>
+          </span>
+        </form>
+      </div>
+    </main>
+
+    <script src="login.js"></script>
+  </body>
+</html>

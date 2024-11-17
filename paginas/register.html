@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <main class="center">
+        <a class="logo" href="../index.html">
+            <img
+            src="https://res.cloudinary.com/do9d7j6b3/image/upload/v1731469063/8acea982439b7129d89be0e6d94aebcc_fkapwl.png"
+            alt="logo"
+            id="logoImage"
+          />
+           </a>
+
+      <div class="register-content">
+        <h1 class="title">Cadastro</h1>
+        <form class="center-col">
+          <div class="input-field center-col">
+            <label for="Nome Completo">Nome Completo</label>
+            <input
+              type="text"
+              id="Nome Completo"
+              name="Nome Completo"
+              required
+            />
+          </div>
+          <div class="input-field center-col">
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name="Email" required />
+          </div>
+          <div class="input-field center-col">
+            <label for="Data de nascimento">Data de nascimento</label>
+            <input
+              type="text"
+              id="Data de nascimento"
+              name="Data de nascimento"
+              required
+            />
+          </div>
+          <div class="input-field center-col">
+            <label for="username">Nome de usuário</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="input-field center-col">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div class="input-field center-col">
+            <label for="password">Confirmar Senha</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <button class="btn-submit" type="submit">Cadastrar</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="register.js"></script>
+  </body>
+</html>
